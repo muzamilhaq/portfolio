@@ -12,10 +12,10 @@ function footer(){
                 </div>
                 <div className="flex flex-col m-2">
                     <h1 className="text-xl font-semibold mb-2">Last Projects</h1>
-                    <a>Emaint</a>
-                    <a>lumut suliki</a>
-                    <a>pa 50 kota</a>
-                    <a>e-assessment</a>
+                    <a href={()=> false}>Emaint</a>
+                    <a href={()=> false}>lumut suliki</a>
+                    <a href={()=>false}>pa 50 kota</a>
+                    <a href={()=>false}>e-assessment</a>
                 </div>
                 <div className="flex flex-col m-2">
                     <h1 className="text-xl font-semibold mb-2">Current availability</h1>
@@ -23,8 +23,8 @@ function footer(){
                 </div>
                 <div className="flex flex-col m-2">
                     <h1 className="text-xl font-semibold mb-2">Follow me on</h1>
-                    <a>Instagram</a>
-                    <a>Twitter</a>
+                    <a href="https://www.instagram.com/_muzamilhaq/">Instagram</a>
+                    <a href="https://twitter.com/mh_pongowork">Twitter</a>
                 </div>
             </div>
         </div>

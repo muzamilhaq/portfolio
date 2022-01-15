@@ -3,7 +3,7 @@ import circleImage from "./img/imagecircle.png"
 
 function About(){
     return (
-        <div className="bg-opacity-5 bg-teal-500 flex mb-10">
+        <div id="aboutme" className="bg-opacity-5 bg-teal-500 flex mb-10">
             <div className="px-15percent md:mx-24 my-10">
                 <h3 className=" text-center text-3xl font-bold text-teal-500">Biodata</h3>
                 <div className="flex justify-center">

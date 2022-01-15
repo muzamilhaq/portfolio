@@ -18,7 +18,7 @@ function createCard(projectlist) {
 
 function project(){
     return(
-        <div className="px-15percent my-10">
+        <div id="project" className="px-15percent my-10">
             <h3>The project that I have made</h3>
             <h1 className="text-3xl font-extrabold">Project</h1>
             <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-4 mt-3">

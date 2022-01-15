@@ -3,11 +3,21 @@ import img from "./img/tphoto.png";
 import Tilt from "react-tilt";
 import Typewriter from "typewriter-effect";
 import './headerstyle.css';
+import project from "./projectlist";
 
 
 
 export default function Header(){
 
+    function onAboutMe(){
+        const element = document.getElementById("aboutme");
+        element.scrollIntoView({behavior:"smooth"});
+    }
+
+    function onProject(){
+        const element = document.getElementById("project");
+        element.scrollIntoView({behavior:"smooth"});
+    }
 
     return (
         <div className="flex flex-col">
@@ -28,9 +38,9 @@ export default function Header(){
                     
                     <div>
                         <p className="text-xl">
-                        <span className="font-extrabold text-base md:text-2xl text-teal-500 hover:text-teal-300"><a href="#">More About Me </a></span> 
+                        <span className="font-extrabold text-base md:text-2xl text-teal-500 hover:text-teal-300"><a onClick={onAboutMe}>More About Me </a></span> 
                         or 
-                        <span className="font-extrabold text-base md:text-2xl text-teal-500 hover:text-teal-300" ><a href="#"> Projects</a></span>
+                        <span className="font-extrabold text-base md:text-2xl text-teal-500 hover:text-teal-300" ><a onClick={onProject}> Projects</a></span>
                         </p>
                     </div>
                 </div>
